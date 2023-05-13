@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+
+:root {
+  --main-color: rgb(252, 143, 0);
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.chat-dialog {
+  outline: none !important;
+  visibility: visible !important;
+  resize: none !important;
+  box-shadow: none !important;
+  overflow: visible !important;
+  background: 0 0 !important;
+  opacity: 1 !important;
+  top: auto !important;
+  right: 10px !important;
+  bottom: 20px !important;
+  left: auto !important;
+  position: fixed !important;
+  border: 0 !important;
+  min-height: 600px !important;
+  min-width: 350px !important;
+  max-height: 600px !important;
+  max-width: 350px !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  -moz-transition-property: none !important;
+  -webkit-transition-property: none !important;
+  -o-transition-property: none !important;
+  transition-property: none !important;
+  transform: none !important;
+  -webkit-transform: none !important;
+  -ms-transform: none !important;
+  width: 350px !important;
+  height: 700px !important;
+  z-index: auto !important;
+  background-color: transparent !important;
+  cursor: none !important;
+  float: none !important;
+  border-radius: 5px !important;
+  pointer-events: auto !important;
+  clip: auto !important;
+  color-scheme: light !important;
+}
+
+#btn-tawk-small {
+  display: none;
+  width: 24px;
+  height: 24px;
+  position: fixed;
+  right: 15px;
+  border-radius: 50%;
+  border: 1px;
+  background-color: rgba(0, 0, 0, 0.211);
+  bottom: 590px;
+  z-index: 99;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  cursor: pointer;
+}
+
+#btn-tawk-small:hover {
+  background-color: rgba(0, 0, 0, 0.285);
+}
+
+.display-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrap-cskh {
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  background: url("../assets/images/bg.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 30px 0;
+}
+
+@media (max-width: 480px) {
+  .wrap-cskh {
+    padding: 20px 0;
+  }
+}
+
+.wrap-cskh_content {
+  max-width: 481px;
+  width: 100%;
+  height: auto;
+  background: rgba(255, 255, 255, 0.5);
+  mix-blend-mode: normal;
+  border: 1px solid #26A9E0;
+  border-radius: 20px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px 0;
+}
+
+@media (max-width: 480px) {
+  .wrap-cskh_content {
+    border: none;
+    padding: 10px 0;
+    background: none;
+  }
+}
+
+.cskh_title {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 38px;
+  color: #26A9E0;
+}
+
+@media (max-width: 480px) {
+  .cskh_title {
+    font-size: 25px;
+  }
+}
+
+.cskh_btn-to-home {
+  margin-bottom: 30px;
+}
+
+@media (max-width: 480px) {
+  .cskh_btn-to-home {
+    width: 90%;
+    height: 100px;
+    margin-bottom: 5px;
+  }
+}
+
+.cskh_text-1 {
+  width: 340px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #26A9E0;
+  margin: 0 auto;
+}
+
+.cskh_btn-1 {
+  width: 75%;
+  height: 55px;
+  min-width: 300px;
+  margin: 15px auto;
+  background: url("../assets/images/bgBtn.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  cursor: pointer;
+  color: #FFFFFF;
+}
+
+.cskh_list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 0;
+  gap: 10px;
+}
+
+.cskh_item {
+  display: flex;
+  gap: 10px;
+}
+
+.cskh_item_icon {
+  width: 49.1px;
+  height: 49.1px;
+  background: linear-gradient(0deg, #26A9E0 -6.88%, #2ECDFF 91.31%);
+  border-radius: 10px;
+}
+
+.cskh_item_btn {
+  width: 328.39px;
+  height: 49.1px;
+  background: linear-gradient(0deg, #26A9E0 -6.88%, #2ECDFF 91.31%);
+  border-radius: 32px;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  cursor: pointer;
+  color: #FFFFFF;
+}
+
+@media (max-width: 480px) {
+  .cskh_item_btn {
+    width: 300px;
+  }
+}
+
+.cskh_footer_icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 15px 0;
+}
+
+.cskh_footer_icons>a>img {
+  width: 86px;
+  height: 86px;
+}
+
+@media (max-width: 480px) {
+  .cskh_footer_icons>a>img {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
