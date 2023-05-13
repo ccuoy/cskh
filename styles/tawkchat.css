@@ -1,0 +1,91 @@
+:root {
+    --tawk-header-background-color: #26a9e0;
+    --tawk-header-text-color: #fff
+}
+
+.tawk-button {
+    margin: 0;
+    border-radius: 5px;
+    overflow: hidden;
+    font: inherit;
+    color: inherit;
+    text-transform: none;
+    display: inline-block;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    border: 1px solid #03a84e;
+    border-color: var(--tawk-header-background-color);
+    line-height: 1.5rem;
+    text-decoration: none;
+    background-color: #03a84e;
+    background-color: var(--tawk-header-background-color);
+    color: #fff;
+    color: var(--tawk-header-text-color)
+}
+
+.tawk-badge {
+    height: 1.25rem;
+    width: 1.25rem;
+    font-size: .687rem;
+    line-height: 1.25rem;
+    background: #bf1212;
+    color: #fff;
+    border-radius: 50%
+}
+
+.tawk-min-container .tawk-button-circle.tawk-button-large {
+    width: 60px;
+    height: 60px
+}
+
+.tawk-badge {
+    height: 1.25rem;
+    width: 1.25rem;
+    font-size: .687rem;
+    line-height: 1.25rem;
+    background: #bf1212;
+    color: #fff;
+    border-radius: 50%
+}
+
+.tawk-badge,
+.tawk-button {
+    box-sizing: border-box;
+    vertical-align: middle;
+    text-align: center
+}
+
+.tawk-button-circle.tawk-button-large {
+    height: 3.75rem;
+    width: 3.75rem;
+    line-height: 3.75rem
+}
+
+.tawk-button-circle {
+    height: 2.5rem;
+    width: 2.5rem;
+    line-height: 2.5rem;
+    padding: 0;
+    border-radius: 100%
+}
+
+.tawk-min-chat-icon {
+    fill: #fff;
+    fill: var(--tawk-header-text-color);
+    -webkit-animation-duration: .25s;
+    animation-duration: .25s;
+    -webkit-animation-name: iconAnimation;
+    animation-name: iconAnimation
+}
+
+.tawk-badge.tawk-min-badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1100
+}
+
+.tawk-min-container .tawk-button-circle.tawk-button-small {
+    width: 40px;
+    height: 40px
+}
